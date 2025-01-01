@@ -11,7 +11,7 @@ public class HelloWorld {
      */
 
     public void sayHello(){
-        System.out.println("Hello World");
+    
     }
 
     /*
@@ -22,8 +22,6 @@ public class HelloWorld {
      */
 
     public void printHelloWorldUsingChars(){
-        char helloWorld[] = {'H','e','l','l','o',' ','W','o','r','l','d'};
-        System.out.println(helloWorld);
     }
     
     /* @Description:-
@@ -32,8 +30,8 @@ public class HelloWorld {
     */
 
     public String returnHelloWorld(){
-        String toReturn = "Hello World";
-        return toReturn;
+        String dummy = "";
+        return dummy;
     }
 
     /*
@@ -49,13 +47,6 @@ public class HelloWorld {
     --------
      */
     public void printPyramid(){
-        System.out.println("-");
-        System.out.println("--");
-        System.out.println("---");
-        System.out.println("----");
-        System.out.println("-----");
-        System.out.println("------");
-        System.out.println("-------");
     }
     
 }

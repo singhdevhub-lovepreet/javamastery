@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.singhdevhub.HelloWorldTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! -- in com.singhdevhub.HelloWorldTest
+com.singhdevhub.HelloWorldTest.sayHello -- Time elapsed: 0.003 s <<< FAILURE!
+java.lang.AssertionError
+	at com.singhdevhub.HelloWorldTest.sayHello(HelloWorldTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.singhdevhub.HelloWorldTest.returnHelloWorld -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError
+	at com.singhdevhub.HelloWorldTest.returnHelloWorld(HelloWorldTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.singhdevhub.HelloWorldTest.printHelloWorldUsingChars -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError
+	at com.singhdevhub.HelloWorldTest.printHelloWorldUsingChars(HelloWorldTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.singhdevhub.HelloWorldTest.printPyramid -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError
+	at com.singhdevhub.HelloWorldTest.printPyramid(HelloWorldTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
