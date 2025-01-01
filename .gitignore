@@ -1,4 +1,4 @@
-/.mvn
-/.vscode
-/.settings
+.mvn
+.vscode
+.settings
 /target
