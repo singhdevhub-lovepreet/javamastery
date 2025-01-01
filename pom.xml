@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.singhdevhub</groupId>
-  <artifactId>JavaMastery</artifactId>
+  <artifactId>javamastery</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>JavaMastery</name>
+  <name>javamastery</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
