@@ -70,6 +70,10 @@ public class Concurrency {
         public void append(String packetToAppend){
             this.sequenceOfPackets = this.sequenceOfPackets+packetToAppend;
         }
+         
+        public String getFinalPacketSequence(){
+            return this.sequenceOfPackets;
+        }
 
         public String receive(){
             while(transfer){
