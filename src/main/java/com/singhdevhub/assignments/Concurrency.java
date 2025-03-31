@@ -60,54 +60,50 @@ public class Concurrency {
      * Output:- None, just call append() method after recieve method and set sequence 
      *      */
 
-    public class SenderReceiverProblem{
-
-        private String sequenceOfPackets;
+    public class SenderReceiverProblem {
         private String packet;
         private boolean transfer = true;
+        private StringBuilder finalSequence = new StringBuilder();
 
-        
-        public void append(String packetToAppend){
-            this.sequenceOfPackets = this.sequenceOfPackets+packetToAppend;
-        }
-         
-        public String getFinalPacketSequence(){
-            return this.sequenceOfPackets;
-        }
-
-        public String receive(){
-            while(transfer){
-                try{
+        // Sender (Producer)
+        public synchronized void send(String packet) {
+            while (!transfer) {
+                try {
                     wait();
-                }catch(InterruptedException ex){
+                } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
-                    System.out.println("Current thread interuppted");
+                }
+            }
+            this.packet = packet;
+            transfer = false;
+            notifyAll();
+        }
+
+        // Receiver (Consumer)
+        public synchronized String receive() {
+            while (transfer) {
+                try {
+                    wait();
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
                 }
             }
             transfer = true;
-            String returnPacket = packet;
             notifyAll();
-            return returnPacket;
+            return packet;
         }
 
-        public void send(String packet) {
-            while (!transfer) {
-                try { 
-                    wait();
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt(); 
-                    System.err.println("Thread Interrupted");
-                }
-            }
-            transfer = false;
-            
-            this.packet = packet;
-            notifyAll();
+        public void append(String packet) {
+            finalSequence.append(packet);
         }
 
+        public String getFinalPacketSequence() {
+            return finalSequence.toString();
+        }
     } 
 
 
 
 
 }
+
