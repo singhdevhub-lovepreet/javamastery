@@ -1,5 +1,12 @@
 package com.singhdevhub.assignments;
 
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.function.Supplier;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Concurrency {
     
      /*
@@ -100,9 +107,52 @@ public class Concurrency {
         public String getFinalPacketSequence() {
             return finalSequence.toString();
         }
-    } 
+    }
+
+     /* 
+     * @Description:- Pass a supplier function callback to completable future 
+     * Input:- None 
+     *      * Output:- Print "Hello world" from two futures. get "Hello" from one and then concat with "world" and print  
+     *      *      */   
+    public void printHelloFromFuture() throws  InterruptedException, ExecutionException{
+
+        CompletableFuture<String> future = CompletableFuture.supplyAsync(new Supplier<String>() {
+            @Override
+            public String get(){
+                return "Hello";
+            }
+        });
+        future.thenAccept(s -> System.out.println(s + " world"));
+        future.get();
+    }
 
 
+     /* 
+     * @Description:- run futures in parallel & print "Hello how are you" 
+     * with each word coming from one future (Hello -> future1, how -> future2 ...) 
+     * Input:- None 
+     *      * Output:- Print "Hello how are you"
+     *      *      */   
+    public void runFuturesInParallel(){
+        CompletableFuture<String> f1 = CompletableFuture.supplyAsync(()->"Hello");
+        CompletableFuture<String> f2 = CompletableFuture.supplyAsync(()->"how");
+        CompletableFuture<String> f3 = CompletableFuture.supplyAsync(()->"are");
+        CompletableFuture<String> f4 = CompletableFuture.supplyAsync(()->"you");
+
+        String result = Stream.of(f1, f2, f3, f4).map(CompletableFuture::join).collect(Collectors.joining(" "));
+        System.out.println(result);
+    }
+
+
+     /* 
+     * @Description:-  Async network request example
+    */
+
+    public class NetworkRequest {
+
+        
+
+    }
 
 
 }
