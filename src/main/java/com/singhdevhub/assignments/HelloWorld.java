@@ -17,19 +17,17 @@ public class HelloWorld {
      */
 
     public void sayHello(){
-        System.out.println("Hello World");
     }
 
     /*
      * @Description:- 
      * Input:- None
-     * Output:- "Hello World"
+     * Output:-(void)
+     * print:- Hello World 
      * Extras:- Use characters to print "Hello World" instead of String
      */
 
     public void printHelloWorldUsingChars(){
-        char helloWorld[] = {'H','e','l','l','o',' ','W','o','r','l','d'};
-        System.out.println(helloWorld);
     }
     
     /* @Description:-
@@ -38,14 +36,13 @@ public class HelloWorld {
     */
 
     public String returnHelloWorld(){
-        String toReturn = "Hello World";
-        return toReturn;
     }
 
     /*
      * @Description:-
      * Input:- None
-     * Output:- 
+     * Output:- None
+     * print :- pattern given below
     -
     --
     ---
@@ -55,13 +52,50 @@ public class HelloWorld {
     --------
      */
     public void printPyramid(){
-        System.out.println("-");
-        System.out.println("--");
-        System.out.println("---");
-        System.out.println("----");
-        System.out.println("-----");
-        System.out.println("------");
-        System.out.println("-------");
     }
     
+    /*
+     * @Description:-
+     * Input:- None
+     * Output:- None
+     * print:- The sum of two numbers (5 and 7)
+     */
+    public void printSumOfTwoNumbers() {
+    }
+
+    /*
+     * @Description:-
+     * Input:- None
+     * Output:- int
+     * return:- The product of two numbers (8 and 9)
+     */
+    public int returnProductOfTwoNumbers() {
+    }
+
+    /*
+     * @Description:-
+     * Input:- None
+     * Output:- None
+     * print:- The result of dividing 15 by 3
+     */
+    public void printDivisionResult() {
+    }
+
+    /*
+     * @Description:-
+     * Input:- None
+     * Output:- boolean
+     * return:- true if 10 is greater than 5, false otherwise
+     */
+    public boolean returnComparisonResult() {
+    }
+
+    /*
+     * @Description:-
+     * Input:- None
+     * Output:- None
+     * print:- The concatenation of "Java" and "Programming"
+     */
+    public void printStringConcatenation() {
+    }
 }

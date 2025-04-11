@@ -54,4 +54,41 @@ public class HelloWorldTest {
         assert(expected.equals(actual));
     }
 
+    @Test
+    public void printSumOfTwoNumbers() {
+        helloWorld.printSumOfTwoNumbers();
+        String expected = "12";
+        String actual = outputStream.toString().trim();
+        assert(expected.equals(actual));
+    }
+
+    @Test
+    public void returnProductOfTwoNumbers() {
+        int expected = 72;
+        int actual = helloWorld.returnProductOfTwoNumbers();
+        assert(expected == actual);
+    }
+
+    @Test
+    public void printDivisionResult() {
+        helloWorld.printDivisionResult();
+        String expected = "5";
+        String actual = outputStream.toString().trim();
+        assert(expected.equals(actual));
+    }
+
+    @Test
+    public void returnComparisonResult() {
+        boolean expected = true;
+        boolean actual = helloWorld.returnComparisonResult();
+        assert(expected == actual);
+    }
+
+    @Test
+    public void printStringConcatenation() {
+        helloWorld.printStringConcatenation();
+        String expected = "JavaProgramming";
+        String actual = outputStream.toString().trim();
+        assert(expected.equals(actual));
+    }
 }
