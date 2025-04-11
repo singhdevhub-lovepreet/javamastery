@@ -36,6 +36,7 @@ public class HelloWorld {
     */
 
     public String returnHelloWorld(){
+        return "dummy";
     }
 
     /*
@@ -70,6 +71,7 @@ public class HelloWorld {
      * return:- The product of two numbers (8 and 9)
      */
     public int returnProductOfTwoNumbers() {
+        return 0;
     }
 
     /*
@@ -88,6 +90,7 @@ public class HelloWorld {
      * return:- true if 10 is greater than 5, false otherwise
      */
     public boolean returnComparisonResult() {
+        return false;
     }
 
     /*
