@@ -20,36 +20,28 @@ public class WrapperAndPremitiveClasses {
      public void workingWithBoolean(){
 
         // convert true (primitive) to Boolean object using Autoboxing and print true
-        Boolean isTrue = true;
-        System.out.print(isTrue);
-        System.out.print(", ");
+         // example given below (uncomment
+//        Boolean isTrue = true;
+//        System.out.print(isTrue);
+//        System.out.print(", ");
 
         // convert false (premitive) to Boolean object using constructor and pass false without string quotes and print false
-        Boolean isFalse = new Boolean(false);
-        System.out.print(isFalse);
-        System.out.print(", ");
+
 
         // convert true (primitive) to Boolean object using constructor and pass true with string quotes and print true
-        Boolean isTrue1 = new Boolean("true");
-        System.out.print(isTrue1);
-        System.out.print(", ");
+
 
         // convert false (primitive) to Boolean object using static method valueOf() and pass false with string quotes and print false
-        Boolean isFalse1 = Boolean.valueOf("false");
-        System.out.print(isFalse1);
-        System.out.print(", ");
+
         
         // convert true (primitive) to Boolean object using Boolean.TRUE and print true
-        Boolean isTrue2 = Boolean.TRUE;
-        System.out.print(isTrue2);
-        System.out.print(", ");
+
 
         // compare isTrue and isFalse1 and print true or false
-        System.out.print(isTrue == isFalse1);
-        System.out.print(", ");
+
 
         //compare true with Boolean.TRUE and print true or false
-        System.out.println(isTrue == Boolean.TRUE);
+
 
     }
 
@@ -68,9 +60,6 @@ public class WrapperAndPremitiveClasses {
          * Extra:- try using new Character('a') instead of valueOf()
          */
 
-        Character character = 'a';
-        Character character1 = Character.valueOf('a');
-        System.out.println(character == character1);
     }
 
     /*
@@ -88,9 +77,6 @@ public class WrapperAndPremitiveClasses {
          * Extra:- try using new Integer(10) instead of valueOf(), and can we pass "10", 10.0 etc
          */
 
-        Integer integer = 10;
-        Integer integer1 = Integer.valueOf(10);
-        System.out.println(integer == integer1);
     }
 
     /*
@@ -106,10 +92,7 @@ public class WrapperAndPremitiveClasses {
          * then equate them to print true
          */ 
 
-        Long long1 = 10L;
-        Long long2 = Long.valueOf(10L);
-        System.out.println(long1 == long2);
-    }   
+    }
     
     /*
      * @Description:- Working with Float
@@ -124,9 +107,6 @@ public class WrapperAndPremitiveClasses {
          * then equate them to print true
          */ 
 
-        Float float1 = 10.0f;
-        Float float2 = Float.valueOf(10.0f);
-        System.out.println(float1.equals(float2));
     }
 
     /*
@@ -142,9 +122,6 @@ public class WrapperAndPremitiveClasses {
          * then equate them to print true
          */ 
 
-        Double double1 = 10.0;
-        Double double2 = Double.valueOf(10.0);
-        System.out.println(double1.equals(double2));
     }
     
     /*
@@ -162,9 +139,6 @@ public class WrapperAndPremitiveClasses {
          * compare 'a' and 'b' and print true or false
          */
 
-        Character character = 'a';
-        Character character1 = 'b';
-        System.out.println(character1.compareTo(character) < 0);
      }
 
 }
