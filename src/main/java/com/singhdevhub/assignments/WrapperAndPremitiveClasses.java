@@ -1,9 +1,17 @@
 package com.singhdevhub.assignments;
 
 public class WrapperAndPremitiveClasses {
-
-
+    
     /*
+     * @Assignment:- 3
+     * @Description:- Working with Wrapper and Premitive classes
+     * Wrapper:- Integer, Boolean, Character, Float, Double
+     * Primitive:- int, boolean, char, float, double
+     */
+    
+    // -------// -------- // -------- // -------- 
+
+    /* 
      * @Description:- Working with Boolean (boolean:- 1Byte)
      * Input:- None
      * Output:- "true, false, true, false, true, false, true"
