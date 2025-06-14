@@ -9,7 +9,6 @@ import java.io.PrintStream;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.singhdevhub.assignments.CarFactory;
 import com.singhdevhub.assignments.CarFactoryUsingEnums;
 import com.singhdevhub.enums.CarsEnum;
 import com.singhdevhub.pojo.Audi;

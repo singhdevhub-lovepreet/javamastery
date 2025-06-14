@@ -21,11 +21,6 @@ public class CarFactoryUsingEnums extends BMW{
      */
     
     public ICar getCarUsingIfElse(CarsEnum carName){
-        if(carName.getCarName() == "BMW"){
-            return new BMW();
-        }else if(carName == CarsEnum.AUDI){
-            return new Audi();
-        }
         return null;
     }
 
@@ -37,27 +32,17 @@ public class CarFactoryUsingEnums extends BMW{
      */
 
      public ICar getCarUsingSwitch(CarsEnum carName){
-        switch(carName){
-            case BMW:
-                return new BMW();
-            case AUDI:
-                return new Audi();
-            default:
-                return null;
-        }
+        return null;
     }
     
     /*
      * @Input:- None
      * @Output:- print "BMW Audi"
-     * @Extras:- use for loop on enums
+     * @Extras:- use for loop on enums, Enum.values()
      */
 
      public void printCarNames(){
-        for(CarsEnum carName : CarsEnum.values()){
-            System.out.print(carName.getCarName());
-            System.out.print(" ");
-        }
+
     }
 
 }
