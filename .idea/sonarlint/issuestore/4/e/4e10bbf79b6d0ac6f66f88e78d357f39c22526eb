@@ -1,0 +1,15 @@
+
+d
+java:S1604w"(Make this anonymous inner class a lambda(ª½Õ–J$f34dc201-ad67-4675-96ce-6332afba6fcd
+f	java:S106"+Replace this use of System.out by a logger.(„úëJ$010c0308-9424-4aca-b36f-322335e6c0b5
+}
+java:S1858"A"getName" returns a string, there's no need to call "toString()".(„úëJ$7b77d5d7-060f-4788-9cea-3ef453fdeffc
+f	java:S106&"+Replace this use of System.out by a logger.(„úëJ$32a5eb80-bd93-4214-9a7a-524eea8d2990
+}
+java:S1858&"A"getName" returns a string, there's no need to call "toString()".(„úëJ$c8945c1f-7ead-453b-9a82-d6ca9640521f
+f	java:S106}"+Replace this use of System.out by a logger.(ó½ïÂJ$d660758c-c5a3-4d08-bbd7-a62b4297a77f
+l	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿJ$f1b537ec-63d5-4a44-b089-b05839449ad0
+
+java:S2094—"BRemove this empty class, write its code or make it an "interface".(â‘éÌJ$993067d5-7bde-42d7-b421-b367715ecca0
+x
+java:S1128"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿJ$eaaf9683-2803-4d42-a475-a85737a7ce79

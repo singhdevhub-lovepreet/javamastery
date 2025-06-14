@@ -20,11 +20,6 @@ public class CarFactory extends BMW{
      */
     
     public ICar getCarUsingIfElse(String carName){
-        if(carName == "BMW"){
-            return new BMW();
-        }else if(carName == "Audi"){
-            return new Audi();
-        }
         return null;
     }
 
@@ -36,14 +31,7 @@ public class CarFactory extends BMW{
      */
     
      public ICar getCarUsingSwitch(String carName){
-        switch(carName){
-            case "BMW":
-                return new BMW();
-            case "Audi":
-                return new Audi();
-            default:
-                return null;
-        }
+         return null;
     }
 
 }

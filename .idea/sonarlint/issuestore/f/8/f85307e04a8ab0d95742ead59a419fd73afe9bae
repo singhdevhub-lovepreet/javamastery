@@ -1,0 +1,14 @@
+
+v
+java:S1488)"`Immediately return this expression instead of assigning it to the temporary variable "toReturn".(•³ƒƒ
+E	java:S106"+Replace this use of System.out by a logger.(ùÄûšşÿÿÿÿ
+?
+java:S1197"*Move the array designators [] to the type.(óÌÅa
+E	java:S106 "+Replace this use of System.out by a logger.(º‚ìüÿÿÿÿ
+@	java:S106:"+Replace this use of System.out by a logger.(˜¥à§
+E	java:S106;"+Replace this use of System.out by a logger.(ú¿‡Óúÿÿÿÿ
+E	java:S106<"+Replace this use of System.out by a logger.(”ôÙŸúÿÿÿÿ
+@	java:S106="+Replace this use of System.out by a logger.(ÅªäŞ
+@	java:S106>"+Replace this use of System.out by a logger.(Å¸Ş
+E	java:S106?"+Replace this use of System.out by a logger.(şú±Ÿûÿÿÿÿ
+E	java:S106@"+Replace this use of System.out by a logger.(ÏŠñğıÿÿÿÿ
