@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a24830a4-9034-4382-aa97-d8cd080c53aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/singhdevhub/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/CarFactoryUsingEnums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/Concurrency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/LoopsAndRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/LoopsAndRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/SerializableIterable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/WrapperAndPremitiveClasses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/enums/CarsEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/pojo/Audi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/pojo/BMW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/pojo/ICar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/CarFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/CarFactoryUsingEnumsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/CarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/ConcurrencyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/HelloWorldTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/SerializableIterableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/WrapperAndPremitiveClassesTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2xaXvEY5zvEMtinGE9r3WSLN9V7" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.LoopsAndRecursionTest.executor": "Run",
+    "JUnit.WrapperAndPremitiveClassesTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "ques/assignment-5",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lovepreetsingh/Desktop/javamastery",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.26666668"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.LoopsAndRecursionTest">
+    <configuration name="LoopsAndRecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javamastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.singhdevhub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.singhdevhub" />
+      <option name="MAIN_CLASS_NAME" value="com.singhdevhub.LoopsAndRecursionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapperAndPremitiveClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javamastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.singhdevhub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.singhdevhub" />
+      <option name="MAIN_CLASS_NAME" value="com.singhdevhub.WrapperAndPremitiveClassesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoopsAndRecursionTest" />
+        <item itemvalue="JUnit.WrapperAndPremitiveClassesTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a24830a4-9034-4382-aa97-d8cd080c53aa" name="Changes" comment="" />
+      <created>1748177386681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748177386681</updated>
+    </task>
+    <servers />
+  </component>
+</project>

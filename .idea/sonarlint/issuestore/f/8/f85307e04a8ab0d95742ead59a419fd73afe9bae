@@ -1,0 +1,14 @@
+
+œ
+java:S1488)"`Immediately return this expression instead of assigning it to the temporary variable "toReturn".(•³ƒƒJ$719e2a4c-9a39-4d95-aaeb-845427a430a8
+k	java:S106"+Replace this use of System.out by a logger.(ùÄûšşÿÿÿÿJ$c4d4754a-811c-42be-bd5f-1f608f51c13c
+e
+java:S1197"*Move the array designators [] to the type.(óÌÅaJ$21cb5dc0-3a76-4b23-bb37-fc564b7b8c5e
+k	java:S106 "+Replace this use of System.out by a logger.(º‚ìüÿÿÿÿJ$8ba9432d-fa92-43c0-a596-bd23c2c355b9
+f	java:S106:"+Replace this use of System.out by a logger.(˜¥à§J$0b643da7-7135-40b5-bf0b-c08a87ba85e5
+k	java:S106;"+Replace this use of System.out by a logger.(ú¿‡ÓúÿÿÿÿJ$02d2921c-3e5d-439b-b997-c83ddf0b5c50
+k	java:S106<"+Replace this use of System.out by a logger.(”ôÙŸúÿÿÿÿJ$5648b44b-e9b6-4ce7-ad6a-c1562860d541
+f	java:S106="+Replace this use of System.out by a logger.(ÅªäŞJ$31833560-a21c-47c6-b65d-d1218f6f09a3
+f	java:S106>"+Replace this use of System.out by a logger.(Å¸ŞJ$b9810acb-6c49-4af0-9310-d3bf64eab736
+k	java:S106?"+Replace this use of System.out by a logger.(şú±ŸûÿÿÿÿJ$8020fb59-89a0-45d7-b2ff-6eae2b46f0ec
+k	java:S106@"+Replace this use of System.out by a logger.(ÏŠñğıÿÿÿÿJ$16d3a073-c792-4760-93eb-51b8f9dbb588

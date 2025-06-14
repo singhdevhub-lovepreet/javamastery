@@ -1,0 +1,23 @@
+
+‰
+java:S2095J"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(°à„ÊJ$1bb49d16-5d62-4cc3-80b5-f16a61f6d929
+‘
+java:S2095?"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(¥€ë˜øÿÿÿÿJ$cc583b42-8ec0-443a-9be9-97484ed4d51c
+Š
+java:S2095>"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(´ˆİÇJ$148e7c88-76cf-4db8-a0aa-65073aac08c4
+
+java:S2095K"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÑÒ»¥øÿÿÿÿJ$525f7a91-cc44-464c-a2c7-d3dc0befedc1
+k	java:S106O"+Replace this use of System.out by a logger.(¹Âà·ıÿÿÿÿJ$cde8f3af-0131-42ce-8ee7-470d2503d307
+e	java:S106P"+Replace this use of System.out by a logger.( ”÷'J$22067c3d-8ff6-467a-abc7-d790cb1a0f9f
+X
+java:S2066X"Make this inner class static(¤ÔïóJ$10a47059-5746-4226-9de2-e713c90b916f
+‰
+java:S2118_"MMake the "java.io.ObjectOutputStream" class "Serializable" or don't write it.(ğñå÷J$15926356-8454-435e-a373-eb31d2dfbb65
+{
+java:S1117e":Rename "person" which hides the field declared at line 91.(½Ñã„üÿÿÿÿJ$6973ad0b-c7b9-4620-8e4f-9f71328c2cac
+f	java:S106u"+Replace this use of System.out by a logger.(œ•é‹J$03b2d02c-f45f-4aea-a197-49663db36f9c
+l	java:S106…"+Replace this use of System.out by a logger.(¬ĞË‹ùÿÿÿÿJ$7c9e4440-d0d3-4a6b-88ec-b508fdf20ee5
+g
+java:S1068Z",Remove this unused "passcode" private field.(ŠºJ$c7557e89-11c4-46d9-b128-ad288216f61e
+f
+java:S1068["*Remove this unused "person" private field.(éÌŠÀJ$b3b7dc6b-6c37-4971-82b7-2e08f9088239
