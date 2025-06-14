@@ -55,15 +55,6 @@ public class SerializableIterable {
 
     public void serializeAndWriteIntoFile () throws IOException {
         // Set name "Ram Kumar" and age 20 in output.txt. flush() and close() the ObjectOutputStream too
-        Person person = new Person();
-        person.setAge(20);
-        person.setName("Ram Kumar");
-
-        FileOutputStream fos = new FileOutputStream("output.txt");
-        ObjectOutputStream oos = new ObjectOutputStream(fos);
-        oos.writeObject(person);
-        oos.flush();
-        oos.close();
     }
 
     /*
@@ -71,13 +62,6 @@ public class SerializableIterable {
      */
     public void deserializeAndReadFromFile() throws ClassNotFoundException, IOException {
         // Read "Ram Kumar" from output.txt and print the content
-        FileInputStream fis = new FileInputStream("output.txt");
-        ObjectInputStream ois = new ObjectInputStream(fis);
-        Person person = (Person) ois.readObject();
-        ois.close();
-
-        System.out.println(person.getName());
-        System.out.println(person.getAge());
     }
 
     /*

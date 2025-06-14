@@ -1,0 +1,32 @@
+
+W
+java:S4973I"<Strings and Boxed types should be compared using "equals()".(ìˆÄ•úÿÿÿÿ
+W
+java:S4973]"<Strings and Boxed types should be compared using "equals()".(²Çüÿÿÿÿ
+R
+java:S4973o"<Strings and Boxed types should be compared using "equals()".(ŸÒô÷
+E	java:S106"+Replace this use of System.out by a logger.(ŞŒòÊøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ
+<
+java:S2129"!Remove this "Boolean" constructor(¶Áåùÿÿÿÿ
+c
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(¶Áåùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(‹Êò¹ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ
+c
+java:S5738!"HRemove this call to a deprecated method, it has been marked for removal.(Íûö×ıÿÿÿÿ
+@	java:S106""+Replace this use of System.out by a logger.(ª“°§
+E	java:S106#"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ
+?	java:S106'"+Replace this use of System.out by a logger.(¨Â²:
+E	java:S106("+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ
+@	java:S106,"+Replace this use of System.out by a logger.(ƒ‚Çİ
+E	java:S106-"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(·Ôİ‘úÿÿÿÿ
+E	java:S1061"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ
+E	java:S1064"+Replace this use of System.out by a logger.(ş¼ïÚıÿÿÿÿ
+E	java:S106I"+Replace this use of System.out by a logger.(ìˆÄ•úÿÿÿÿ
+E	java:S106]"+Replace this use of System.out by a logger.(²Çüÿÿÿÿ
+@	java:S106o"+Replace this use of System.out by a logger.(ŸÒô÷
+A	java:S106"+Replace this use of System.out by a logger.(ÇĞ×Ğ
+F	java:S106“"+Replace this use of System.out by a logger.(êê¾úÿÿÿÿ
+F	java:S106§"+Replace this use of System.out by a logger.(Åşºÿÿÿÿÿ

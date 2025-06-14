@@ -1,0 +1,17 @@
+
+X
+java:S2066H"Make this inner class static(¤ÔïóJ$4dbc7fd2-b0e7-4e45-9c7e-aa5d00f2f16a
+‰
+java:S2118O"MMake the "java.io.ObjectOutputStream" class "Serializable" or don't write it.(ðñå÷J$71246159-60da-4dbe-9c1a-603b7aa46910
+{
+java:S1117U":Rename "person" which hides the field declared at line 75.(½Ñã„üÿÿÿÿJ$0e3fa41a-efbc-4ae2-8ad2-6fc320cec0ad
+f	java:S106e"+Replace this use of System.out by a logger.(œ•é‹J$e694b772-e67c-4d24-a36d-d8e303f847f2
+k	java:S106u"+Replace this use of System.out by a logger.(¬ÐË‹ùÿÿÿÿJ$e88290b4-c567-48d6-8354-8388c462a164
+Q
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8Á¥ööö2
+Q
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8Á¥ööö2
+g
+java:S1068J",Remove this unused "passcode" private field.(ŠºžJ$e61a1582-4b95-4570-a841-63e686988e0f
+f
+java:S1068K"*Remove this unused "person" private field.(éÌŠÀJ$f57cf65c-051e-41bf-9900-b625c31dbb45
