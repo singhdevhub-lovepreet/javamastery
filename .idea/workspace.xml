@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81014d8d-a7f8-41dc-8bc8-8375645f566f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/singhdevhub/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/CarFactoryUsingEnums.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/Concurrency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/LoopsAndRecursion.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/SerializableIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/SerializableIterable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/assignments/WrapperAndPremitiveClasses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/enums/CarsEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/pojo/Audi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/pojo/BMW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/singhdevhub/pojo/ICar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/CarFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/CarFactoryUsingEnumsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/CarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/ConcurrencyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/HelloWorldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/LoopsAndRecursionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/singhdevhub/WrapperAndPremitiveClassesTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CarFactoryTest.executor": "Run",
-    "JUnit.CarFactoryUsingEnumsTest.executor": "Run",
-    "JUnit.SerializableIterableTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ques/assignment-7",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CarFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarFactoryUsingEnumsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SerializableIterableTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ques/assignment-7&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.SerializableIterableTest">
     <configuration name="CarFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javamastery" />

@@ -96,10 +96,7 @@ public class SerializableIterable {
 
     public void iteratableList(){
         // every collection implements Iterable<E>
-        List<String> people = Arrays.asList("ram", "sham", "piyu");
-        for(String person: people){
-            System.out.println(person);
-        }
+
     }
 
     /*
@@ -110,12 +107,7 @@ public class SerializableIterable {
 
       public void iteratableUsingIterator(){
         // every collection implements Iterable<E>
-        List<String> people = Arrays.asList("ram", "sham", "piyu");
-        Iterator<String> iterator = people.iterator();
-        while(iterator.hasNext()){
-            String element = iterator.next();
-            System.out.println(element);
-        }
+
     }
 
 
